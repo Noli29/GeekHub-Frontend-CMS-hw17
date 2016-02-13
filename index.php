@@ -54,30 +54,7 @@
                 </div>
                 <div>
                     <div class="slider-icon">
-                        <div class="item">
-                            <div class="info">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="info">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="info">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="info">
-                                <h3>Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                            </div>
-                        </div>
+                        <?php include('scripts/slider-items.php') ?>
                     </div>
                 </div>
             </div>
@@ -111,26 +88,9 @@
                         <h2>First impression about Us</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="feature">
-                        <img alt="" src="images/elipse.png" />
-                        <p class="italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."</p>
-                        <p><span>YODA,</span> JEDI ACADEMY</p>
-                    </div>
-                    <div class="feature">
-                        <img alt="" src="images/elipse.png" />
-                        <p class="italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."</p>
-                        <p><span>MACE WINDU,</span> JEDI ACADEMY</p>
-                    </div>
-                    <div class="feature">
-                        <img alt="" src="images/elipse.png" />
-                        <p class="italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."</p>
-                        <p><span>OBI WAN,</span> JEDI ACADEMY</p>
-                    </div>
-                    <div class="feature">
-                        <img alt="" src="images/elipse.png"/>
-                        <p class="italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."</p>
-                        <p><span>A. SKYWALKER,</span> JEDI ACADEMY</p>
-                    </div>
+
+                    <?php include('scripts/features.php') ?>
+
                 </div>
             </div>
         </div>
@@ -138,4 +98,3 @@
 
 
 <?php include "scripts/footer.php";?>
-

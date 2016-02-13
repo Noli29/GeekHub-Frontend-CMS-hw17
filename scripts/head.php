@@ -1,4 +1,3 @@
-<?php include "variables.php";?>
 
 <!DOCTYPE html>
 <html>
@@ -51,7 +50,7 @@
                                 <li><a href="#" to="footer">Contact</a></li>
                             </ul> -->
 
-                            <?php require('scripts/menu.php') ?>
+                            <?php include('scripts/menu.php') ?>
                         </div>
                     </div>
                 </nav>
