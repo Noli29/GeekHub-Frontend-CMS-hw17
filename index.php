@@ -89,7 +89,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
 
-                    <?php include('scripts/features.php') ?>
+                    <?php include('scripts/block_lorem.php') ?>
 
                 </div>
             </div>

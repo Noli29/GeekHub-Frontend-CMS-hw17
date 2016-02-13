@@ -1,5 +1,5 @@
 <?php
-    $features = [
+    $block_lorem = [
         [
             'description' => '"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."',
             'title' => '<span>YODA,</span> JEDI ACADEMY',
@@ -10,15 +10,16 @@
             'title' => '<span>YODA,</span> JEDI ACADEMY',
             'image' => 'images/elipse.png'
         ],
+
     ];
 
     $result = '';
 
-    foreach ($features as $feature) {
-        $result .= '<div class="feature">';
-            $result .= "<img alt='' src='{$feature['image']}' />";
-            $result .= "<p class='italic'>{$feature['description']}</p>";
-            $result .= "<p>{$feature['title']}</p>";
+    foreach ($block_lorem as $lorem) {
+        $result .= '<div class="block_lorem">';
+            $result .= "<img alt='' src='{$lorem['image']}' />";
+            $result .= "<p class='italic'>{$lorem['description']}</p>";
+            $result .= "<p>{$lorem['title']}</p>";
         $result .= '</div>';
     }
 ?>
