@@ -1,17 +1,28 @@
 main {
   .about-us{
-    h2 {
-      font-family: 'LatoWebBold', sans-serif;
-      color: #1ff3f1;
-      font-size: 36px;
-      padding-bottom: 15px;
+    padding-top: 135px;
+    .text{
+      border: 3px solid #1ff3f1;
+
+      h2 {
+        font-family: 'LatoWebBold', sans-serif;
+        color: #1ff3f1;
+        font-size: 36px;
+        padding-bottom: 15px;
+      }
+
+      p {
+        font-family: 'LatoWebBold', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 55px;
+      }
+    }
+    .content{
+      background: #000;
     }
 
-    p {
-      font-family: 'LatoWebBold', sans-serif;
-      color: #fff;
-      font-size: 18px;
-      padding-bottom: 35px;
-    }
   }
 }

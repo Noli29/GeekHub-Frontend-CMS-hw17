@@ -24,5 +24,41 @@ main {
     }
 
 
+    .slider-icon div {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    .item {
+      width: 240px;
+      display: inline-block;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      text-align: $text-l;
+    }
+
+    .item:nth-child(4n+1) {
+      margin-right: 0;
+    }
+
+    .item .info h3 {
+      text-transform: uppercase;
+      font-family: $font;
+      font-size: 16px;
+      font-weight: $font-weight-h1;
+
+      color: #1ff3f1;
+
+      &:hover{
+        color: #ff1a62;
+      }
+    }
+
+    .item .info p {
+      font-family: $font;
+      font-size: 12px;
+      font-weight: $font-weight-h3;
+
+    }
   }
 }
