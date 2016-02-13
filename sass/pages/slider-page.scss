@@ -1,5 +1,6 @@
 main {
-  .about-us{
+  .slider{
+    padding-bottom: 35px;
     h2 {
       font-family: 'LatoWebBold', sans-serif;
       color: #1ff3f1;
@@ -13,5 +14,15 @@ main {
       font-size: 18px;
       padding-bottom: 35px;
     }
+    #owl .item{
+      margin: 3px;
+    }
+    #owl .item img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+
   }
 }

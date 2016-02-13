@@ -1,6 +1,11 @@
+$(document).ready(function() {
 
-$(window).load(function() {
-    $('.flexslider').flexslider({
-        animation: "slide"
+    $("#owl").owlCarousel({
+        autoPlay: 3000,
+        items : 4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+
     });
+
 });

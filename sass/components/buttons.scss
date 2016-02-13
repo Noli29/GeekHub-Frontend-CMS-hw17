@@ -1,62 +1,48 @@
 .button {
+  background-color: #ff1a62;
+  padding: 5px 35px;
+  border-radius: 30px;
+  font-weight: $font-weight-p;
   display: inline-block;
-  padding: 10px 45px;
-  background-color: #F1BB00;
   text-decoration: none;
   transition: .2s linear;
+  margin-bottom: 120px;
+  margin-left: 15px;
+  color: $color-white;
+
   a{
-    text-shadow: 0 -1px 0 ;
-    color: $color-white;
     font-family: $font;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 48px;
   }
 
   &:hover {
-    background: #1b6d85;
+    background-color: #2aabd2;
+    color: $color-white;
     transition: .2s linear;
-    color: #F1BB00;
   }
 }
 
-.button-price {
+.button-blue {
+  padding: 5px 35px;
+  border-radius: 30px;
+  font-weight: $font-weight-p;
   display: inline-block;
-  padding: 10px 45px;
-  background-color: #F1BB00;
   text-decoration: none;
   transition: .2s linear;
+  margin-bottom: 120px;
+  margin-left: 15px;
+  color: #2aabd2;
+
   a{
-    text-shadow: 0 -1px 0 ;
-    color: $color-white;
     font-family: $font;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 48px;
   }
 
   &:hover {
-    background: #1b6d85;
-    transition: .2s linear;
-    color: #F1BB00;
-  }
-}
-
-.price-btn {
-  display: inline-block;
-  padding: 5px 5px;
-  background-color: #F1BB00;
-  text-decoration: none;
-  transition: .2s linear;
-  a{
-    text-shadow: 0 -1px 0 ;
+    background-color: #2aabd2;
     color: $color-white;
-    font-family: $font;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  &:hover {
-    background: #1b6d85;
     transition: .2s linear;
-    color: #F1BB00;
   }
 }
