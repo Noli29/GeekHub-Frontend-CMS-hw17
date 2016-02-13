@@ -33,7 +33,7 @@
 
                         </div>
                         <div  class="collapse navbar-collapse" id="collapse">
-                            <ul class="nav navbar-nav left">
+                            <!-- <ul class="nav navbar-nav left">
                                 <li class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home</a>
                                     <ul class="dropdown-menu">
@@ -49,7 +49,9 @@
                                 <li><a href="#" to="video">Articles</a></li>
                                 <li><a href="#" to="ellipse">Ellipse</a></li>
                                 <li><a href="#" to="footer">Contact</a></li>
-                            </ul>
+                            </ul> -->
+
+                            <?php require('scripts/menu.php') ?>
                         </div>
                     </div>
                 </nav>
